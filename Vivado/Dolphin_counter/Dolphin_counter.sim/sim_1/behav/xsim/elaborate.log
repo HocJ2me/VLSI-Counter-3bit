@@ -1,0 +1,17 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_dolphin_counter_behav xil_defaultlib.tb_dolphin_counter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/DHBK/Documents/GitHub/VLSI-Counter-3bit/Vivado/Dolphin_counter/Dolphin_counter.srcs/sources_1/new/lfsr_counter.v" Line 1. Module dolphin_counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/DHBK/Documents/GitHub/VLSI-Counter-3bit/Vivado/Dolphin_counter/Dolphin_counter.srcs/sources_1/new/lfsr_counter.v" Line 1. Module dolphin_counter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dolphin_counter
+Compiling module xil_defaultlib.tb_dolphin_counter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_dolphin_counter_behav
